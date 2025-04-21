@@ -1,0 +1,353 @@
+body{
+    color: #434455;
+    font-family: 'Roboto', sans-serif;
+    background-color: #FFFFFF;
+}
+
+*, 
+*::before, 
+*::after {
+    box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+  }
+  
+ul, ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    }
+
+    .a {
+        text-decoration: none;
+    } 
+    img {
+        display: block;
+    }
+
+.container {
+    max-width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.page-header {
+    border-bottom: 1px solid #E7E9FC;
+}
+.logo {
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    display: inline-block;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+
+}
+.header-logo {
+    padding: 24px 0;
+    margin-right: 76px;
+}
+
+.logo-studio-header {
+    color: #2e2f42;
+}
+.page-nav {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.nav-list {
+    display: flex;
+    align-items: center;
+} 
+.page-nav .link
+{
+    display: block;
+    padding: 24px 0;
+    color: #2e2f42;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    list-style: none;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    list-style: none;
+}
+.page-nav .link:hover,
+.page-nav .link:focus
+{
+    color: #404bbf;
+    font-weight: 400;
+}
+.address {
+    font-style: normal;
+    margin-left: auto;
+}
+
+.address .link{
+    display: block;
+    padding: 24px 0;
+    color: #434455;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 24px;
+    font-style: normal;
+    letter-spacing: 0.02em;
+    list-style: none;
+}
+.address-links{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.address .link:focus,
+.address .link:hover
+{
+    color: #404bbf;
+}
+.section {
+    padding: 120px 0;
+
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+   }
+
+.site-title {
+    font-size: 56px;
+    text-align: center;
+    line-height: 60px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+    max-width: 496px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 48px;
+   
+}
+.second-title {
+    font-size: 36px;
+    text-align: center;
+    line-height: 40px;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    margin-bottom: 72px;
+}
+
+.thirt-title {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    margin-bottom: 8px;
+}
+.text {
+    font-size: 16px;
+    line-height: 1.5;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+}
+
+
+.button {
+    background-color: #4D5AE5;
+    color: #FFFFFF;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    min-width: 169px;
+    height: 56px;
+    border-radius: 4px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15); 
+    display: block;
+    margin: 0 auto;
+    border: none;
+}
+
+.button:hover,
+.button:focus {
+    background-color: #404BBF;
+}
+
+.title {
+    background-color: #2e2f42;
+    background-image: linear-gradient(to bottom,
+     rgba(46, 47, 66, 0.7),
+     rgba(46, 47, 66, 0.7)), 
+    url(../images/people-office.jpg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: center, center;
+    background-size: cover, cover;           
+    color: #FFFFFF;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 188px 0; 
+    max-width: 1440px;
+}
+
+.about-us {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #8E8F99;
+    border-radius: 4px;
+    width: 264px;
+    height: 112px;
+    background-color: #F4F4FD;
+    margin-bottom: 8px;
+}
+
+.about-us-item {
+    width: calc((100% - 72px) / 4);
+} 
+
+.our-team {
+    background-color: #F4F4FD;
+    list-style: none;
+}
+.our-team-mentors {
+    border-radius: 0 0 4px 4px;
+    padding: 0px 0px 32px 0px;
+    width: 264px;
+    height: 428px;
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+    background: #FFFFFF;
+ 
+}
+.our-mentors {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+.name-post {
+    padding: 32px 16px 32px 16px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: 2E2F42;
+    padding: 32px 0;
+}
+
+.our-portfolio {
+    display: flex;
+    align-items: center;
+    column-gap: 24px;
+    row-gap: 48px;
+    flex-wrap: wrap;
+}
+
+
+.social-media-box {
+    width: 40px;
+    height: 40px;
+    background-color: #4D5AE5;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8px;
+}
+
+.social-media {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+
+.svg-social {
+    fill: #FFFFFF;
+}
+
+.projects {
+    width: calc((100% - 48px) / 3);
+}
+
+.our-projects {
+    border-bottom: 1px solid #E5E5E5;
+    border-left: 1px solid #E5E5E5;
+    border-right: 1px solid #E5E5E5;
+    border-left: 1px solid #E5E5E5;
+    padding: 32px 16px;
+    width: 360px;
+    height: 120px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+}
+
+.footer {
+    background-color: #2E2F42;
+    color: #F4F4FD;
+    padding: 100px 0;
+}
+
+
+.text-footer {
+    max-width: 264px;
+}
+
+.logo-studio-footer {
+    color: #F4F4FD;
+    display: inline-block;
+  
+}
+
+.logo-footer {
+    margin-bottom: 16px;
+}
+
+.h4 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    margin-bottom: 16px;
+}
+
+.footer-elements {
+    display: flex;
+    justify-content: flex-start;
+    gap: 120px;
+}
+
+/* .footer-block {
+    display: flex;
+  flex-direction: column;
+}
+  /* gap: 16px; */

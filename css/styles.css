@@ -322,10 +322,13 @@ ul, ol {
     align-items: center;
     justify-content: center;
     gap: 24px;
+
 }
 
 .svg-social {
     fill: #f4f4fd;
+    width: 24px;
+    height: 24px;
 }
 
 .our-portfolio {
@@ -413,18 +416,20 @@ ul, ol {
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.02em;
+    color: #FFFFFF;
+    margin-bottom: 16px;
 }
 
 .footer-elements {
     display: flex;
     justify-content: flex-start;
-    gap: 120px;
-}
+   gap: 120px;
 
  .footer-block {
     display: flex;
   flex-direction: column;
   gap: 16px; 
+  align-items: baseline;
 
 }
 .social-media-footer {

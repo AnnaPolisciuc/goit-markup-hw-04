@@ -26,10 +26,6 @@ ul, ol {
         display: block;
     }
 
-    svg {
-        width: 24px;
-        height: 24px;
-    }
 
 .container {
     max-width: 1158px;

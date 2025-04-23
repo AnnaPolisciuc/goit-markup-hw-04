@@ -331,19 +331,18 @@ ul, ol {
     align-items: center;
     justify-content: center;
     gap: 16px;
-    gap: 24px;
 }
 
 .social-media-element {
     height: 40px; 
     width: 40px;
 }
-
 .svg-social {
     fill: #f4f4fd;
     width: 24px;
     height: 24px;
 }
+
 
 .our-portfolio {
     display: flex;

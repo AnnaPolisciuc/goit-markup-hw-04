@@ -26,6 +26,11 @@ ul, ol {
         display: block;
     }
 
+    svg {
+        width: 24px;
+        height: 24px;
+    }
+
 .container {
     max-width: 1158px;
     padding: 0 15px;
@@ -326,6 +331,7 @@ ul, ol {
     align-items: center;
     justify-content: center;
     gap: 16px;
+    gap: 24px;
 }
 
 .social-media-element {
@@ -350,6 +356,7 @@ ul, ol {
     width: calc((100% - 48px) / 3);
     /* position: relative; */
     /* overflow: hidden; */
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   
 }
 

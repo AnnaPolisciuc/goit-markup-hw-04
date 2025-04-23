@@ -327,6 +327,7 @@ ul, ol {
     align-items: center;
     justify-content: center;
     gap: 16px;
+    gap: 24px;
 }
 
 .social-media-element {
